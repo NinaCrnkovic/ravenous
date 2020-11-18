@@ -10,7 +10,7 @@ class Business extends React.Component {
       <div className="Business">
         <div className="image-container">
           <img
-            src="https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg"
+            src={business.imageSrc}
             alt=""
           />
         </div>
